@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, red, royalblue);
+    height: 100vh;
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+}
+
+header {
+    transform: translate(0, -40%);
+    color: #fff;
+    text-shadow: 2px 3px black;
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-size: 20vh;
+    border-radius: 5px;
+    justify-content: center;
+    width: max-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+
